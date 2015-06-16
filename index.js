@@ -20,10 +20,13 @@ footnotesStyles = function() {
 }
 
 footnotesInfo = function() {
+  var isoDateString = new Date().toISOString()
+  var dateString = isoDateString.slice(0,10) + ' - ' + isoDateString.slice(11, 16);
+
   return '<div class="ember-cli-footnotes"> \
               <p> Branch: ' + info.branch + '</p> \
               <p> SHA: ' + info.sha + '</p> \
-              <p> Deployed by: ' + userInfo() + ' at ' + new Date().toString() + '</p> \
+              <p> Deployed by: ' + userInfo() + ' at ' + dateString + '</p> \
             </div>'
 }
 
