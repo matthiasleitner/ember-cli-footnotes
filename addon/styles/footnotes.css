@@ -1,0 +1,12 @@
+body {
+  position: relative;
+}
+
+.ember-cli-footnotes {
+  background: rgba(255, 255, 255, 0.9);
+  bottom: 0px;
+  padding: 5px;
+  position: absolute;
+  right: 0px;
+  z-index: 1000;
+}
