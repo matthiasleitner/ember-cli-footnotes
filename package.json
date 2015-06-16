@@ -1,7 +1,8 @@
 {
   "name": "ember-cli-footnotes",
   "version": "0.0.2",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Add git information to ember-cli projects",
+  "author": "Matthias Leitner",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +12,10 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/matthiasleitner/ember-cli-footnotes",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
