@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-footnotes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add git information to ember-cli projects",
   "author": "Matthias Leitner",
   "directories": {
