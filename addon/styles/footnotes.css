@@ -5,6 +5,7 @@ body {
 .ember-cli-footnotes {
   background: rgba(255, 255, 255, 0.9);
   bottom: 0px;
+  cursor: pointer;
   padding: 5px;
   position: absolute;
   right: 0px;
